@@ -1,0 +1,54 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(test, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: lib2_132_13 / Test / test, Test / test[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVoxboneHttpRequestsTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA VoxboneHttpRequests[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse queryparameters if there is an empty set of queryParameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse a QueryParameters to String if there is only 1. [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse several QueryParameters in correct format[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not create queryParameters if there is None[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should generate a valid HttpRequest using listNumberInventoryRequest method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjson parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse and serialize json as provided from the API and parse it into a Did class[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize jsonString to NumberInventory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize Cart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse voiceUris[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse ChangeVoiceResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mVoxboneHttpRequestsTraitTest:[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mA VoxboneHttpRequestsTrait[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse queryparameters if there is an empty set of queryParameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse a QueryParameters to String if there is only 1. [0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse several QueryParameters in correct format[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should not create queryParameters if there is None[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- Should generate a valid HttpRequest using listNumberInventoryRequest method[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mjson parser[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse and serialize json as provided from the API and parse it into a Did class[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize jsonString to NumberInventory[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize Cart[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse voiceUris[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse ChangeVoiceResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse CommonErrorMessage[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize DidConfiguration[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse DidConfiguration from string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize NewVoiceUri[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize a voiceUriResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to deserialize voiceUri either when it is wrapped as named or unnamed jsobject[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse DidGroups using Json from their own Api Documentation[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse optional DidConfigurationResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mQueryParameters should be able to formatted correctly[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- e164 pattern parameter is escaped correctly if contains space and countrycode[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32ma class dk.nuuday.digitalCommunications.voxbone.models.CdrResponse should be able to de- & serialize[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to parse Json String to CdrResponse[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should be able to serialize CdrResponse to Json String[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32ma class dk.nuuday.digitalCommunications.voxbone.httpModels.requests.v2.CdrRequests$CdrParameters should be able to create QueryParameters[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- it should remove all None values, and parse all those who are actually there, and then use toQueryParameters function[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32ma interface dk.nuuday.digitalCommunications.voxbone.jsonModel.CdrJsonProtocol should be able to parse A voxbone formatted time, to a class java.time.ZonedDateTime[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- it should parse and create a model[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32m- should parse another cdr string[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mRun completed in 462 milliseconds.[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTotal number of tests run: 34[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mSuites: completed 2, aborted 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[36mTests: succeeded 34, failed 0, canceled 0, ignored 0, pending 0[0m[0m
+[0m[[0m[0minfo[0m] [0m[0m[32mAll tests passed.[0m[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 1 s, completed Jan 18, 2022 12:21:42 PM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m

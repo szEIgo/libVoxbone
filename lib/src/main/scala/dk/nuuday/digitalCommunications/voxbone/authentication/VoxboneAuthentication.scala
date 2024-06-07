@@ -1,0 +1,3 @@
+package dk.nuuday.digitalCommunications.voxbone.authentication
+
+trait VoxboneAuthentication

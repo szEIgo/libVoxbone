@@ -1,0 +1,14 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(publish, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0mEvaluating tasks: lib2_132_13 / publish, publish[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0minfo[0m] [0m[0mWrote /home/joni/tdc/development/libvoxbone.hg/lib/target/2.13-2.13/libvoxbone_2.13-1.0.9.pom[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation to /home/joni/tdc/development/libvoxbone.hg/lib/target/2.13-2.13/api...[0m
+[0m[[0m[0minfo[0m] [0m[0mcompiling 1 Scala source to /home/joni/tdc/development/libvoxbone.hg/lib/target/2.13-2.13/classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mdone compiling[0m
+[0m[[0m[0minfo[0m] [0m[0mMain Scala API documentation successful.[0m
+[0m[[0m[0minfo[0m] [0m[0m	published libvoxbone_2.13 to https://nexus.cirque-udv.dk/repository/internal/dk/nuuday/digitalCommunications/voxbone/libvoxbone_2.13/1.0.9/libvoxbone_2.13-1.0.9.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published libvoxbone_2.13 to https://nexus.cirque-udv.dk/repository/internal/dk/nuuday/digitalCommunications/voxbone/libvoxbone_2.13/1.0.9/libvoxbone_2.13-1.0.9.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published libvoxbone_2.13 to https://nexus.cirque-udv.dk/repository/internal/dk/nuuday/digitalCommunications/voxbone/libvoxbone_2.13/1.0.9/libvoxbone_2.13-1.0.9-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published libvoxbone_2.13 to https://nexus.cirque-udv.dk/repository/internal/dk/nuuday/digitalCommunications/voxbone/libvoxbone_2.13/1.0.9/libvoxbone_2.13-1.0.9-javadoc.jar[0m
+[0m[[0m[32msuccess[0m] [0m[0mTotal time: 19 s, completed Jan 21, 2022 8:45:42 AM[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(idea-shell, None, None)[0m
